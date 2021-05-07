@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-Player</title>
+    <link rel="stylesheet" href="Music.css">
+    <script src="https://use.fontawesome.com/25f6490b33.js"></script>
+</head>
+<body>
+    <div class="main_container">
+        <div class="music_player">
+            <h1 id="title">Song-Title</h1>
+            <h2 id="artist">Artist</h2>
+            <div class="image">
+                <img src="image/song-1.jpg" alt="">
+            </div>
+            <audio src="music/song-1.mp3"></audio>
+            <div class="music_control">
+            <i class="fa fa-step-backward" aria-hidden="true" id="prev" title="Previous"></i>
+            <i class="fa fa-play play_button" aria-hidden="true" id="play" title="Play"></i>
+            <i class="fa fa-step-forward" aria-hidden="true" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="Music.js"></script>
+</body>
+</html>
